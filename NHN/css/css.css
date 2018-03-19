@@ -16,7 +16,7 @@ a{
     text-decoration: none;color:#000;}
 
 content{width:1200px;height:1000px;padding:0;}
-#left{float:left;width:600px;padding:0;height:1000px;position:relative;}
+#left{float:left;width:600px;padding:0; height:1000px;position:relative;}
 #left>img{width:600px;height:800px;float:left;}
 #right{float:left;width:600px;padding:0;height:1000px;position:relative}
 .small img{float:left;width:300px;}
