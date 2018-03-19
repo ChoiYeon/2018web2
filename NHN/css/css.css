@@ -15,8 +15,8 @@ header>li{width:30px;
 a{
     text-decoration: none;color:#000;}
 
-content{width:1200px;height:1000px;padding:0px;}
-#left{float:left;width:600px;padding:0;float:left;height:1000px;position:relative;}
+content{width:1200px;height:1000px;padding:0;}
+#left{float:left;width:600px;padding:0;height:1000px;position:relative;}
 #left>img{width:600px;height:800px;float:left;}
 #right{float:left;width:600px;padding:0;height:1000px;position:relative}
 .small img{float:left;width:300px;}
@@ -34,7 +34,7 @@ footer>p{
 #a-left ul>li>ul li{border-bottom: black solid 1px;
     }
 #a-left{width:85%;float:left;overflow: hidden;font-size: 15px;}
-#a-right{wodth:15%;float:left;overflow: hidden;font-size: 15px;}
+#a-right{width:15%;float:left;overflow: hidden;font-size: 15px;}
 #a-right ul>li>ul li{border-bottom: black solid 1px;}
 #a-right h3{
     text-align: center;}
@@ -43,7 +43,7 @@ footer>p{
 #b-left ul>li>ul li{border-bottom: black solid 1px;
 }
 #b-left{width:70%;float:left;overflow: hidden;font-size: 15px;}
-#b-right{wodth:30%;float:left;overflow: hidden;font-size: 15px;}
+#b-right{width:30%;float:left;overflow: hidden;font-size: 15px;}
 #b-right ul>li>ul li{border-bottom: black solid 1px;}
 #b-right h3{
     text-align: center;}
