@@ -1,0 +1,56 @@
+*{margin:0;padding:0;box-sizing: border-box  }
+
+#wrap{width:1500px;height:1600px;}
+
+li{
+    list-style: none
+}
+
+a{
+    text-decoration: none;
+}
+
+.a{
+    cursor:pointer
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: black;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+header>ul{
+    width:350px;
+    float:right;
+    line-height:100px;
+}
+
+header>ul>li{
+    float:left;
+    width: 100px;
+    font-weight: bold;
+}
+
+header>ul>li>a{
+    color:#fff;
+    float:left;
+}
+#leftimg{
+    width:50%;
+    height:100%;
+}
+#gongji{width:50%;height:1400px;float:right;padding-left:40px;padding-top:40px;}
+#jemok{font-size: 30px;font-weight: bold;padding-left:30px;
+    padding-bottom:10px;}
+table{border-collapse: collapse;}
+td{
+    padding:30px;
+    text-align: left;width:710px;
+    border-top:solid 1px darkgray;
+    border-bottom:solid 1px darkgray;
+
+}
+td>p{font-size:12px;}
