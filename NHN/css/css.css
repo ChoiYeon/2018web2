@@ -39,7 +39,8 @@ footer>p{
 #a-left ul>li>ul li{border-bottom: black solid 1px;
     }
 #a-left{width:85%;float:left;overflow: hidden;font-size: 15px;}
-#a-right{width:15%;float:left;overflow: hidden;font-size: 15px;}
+#a-right{width:15%;float:left;overflow: hidden;font-size: 15px;padding-right:10px;
+    text-align: center;}
 #a-right ul>li>ul li{border-bottom: black solid 1px;}
 #a-right h3{
     text-align: center;}
@@ -47,8 +48,9 @@ footer>p{
     text-align: center;}
 #b-left ul>li>ul li{border-bottom: black solid 1px;
 }
-#b-left{width:70%;float:left;overflow: hidden;font-size: 15px;}
-#b-right{width:30%;float:left;overflow: hidden;font-size: 15px;}
+#b-left{width:70%;float:left;overflow: hidden;font-size: 15px;padding-left:10px;}
+#b-right{width:30%;float:left;overflow: hidden;font-size: 15px;
+    text-align: center;}
 #b-right ul>li>ul li{border-bottom: black solid 1px;}
 #b-right h3{
     text-align: center;}
