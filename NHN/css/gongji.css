@@ -14,29 +14,22 @@ a{
     cursor:pointer
 }
 
-header {
-    width: 100%;
-    height: 100px;
-    background: black;
-    margin: 0 auto;
-    padding-bottom: 20px;
+header{height:50px;width:100%;
+    background: gray;
+    line-height: 50px;
 }
-
 header>ul{
-    width:350px;
+    text-align: center;
     float:right;
-    line-height:100px;
-}
+    height: 50px;width:90px}
+header>ul>li{width:90px;height:50px;line-height: 50px;font-weight:bold}
 
-header>ul>li{
-    float:left;
-    width: 100px;
-    font-weight: bold;
-}
+header>ul>li>a{color:#fff;}
 
-header>ul>li>a{
-    color:#fff;
-    float:left;
+header>ul>li:hover{
+    background: #fff;transition:.2s;}
+header>ul>li:hover>a{
+    color:black;
 }
 #leftimg{
     width:50%;
@@ -64,3 +57,8 @@ td>p{
 
 #middle>button{width:30px;height:30px;border:none;
     background: darkgrey;}
+
+#jigm{
+    background: #fff;}
+
+#jigm a{color:black;font-weight:bold;}

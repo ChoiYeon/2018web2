@@ -1,29 +1,35 @@
 *{margin:0;padding:0;box-sizing: border-box}
-#wrap{width:1200px;height:1250px;margin:0 auto;position:relative}
+#wrap{width:1500px;height:1250px;margin:0 auto;position:relative}
 h1,h2,h3,h4,h5,h6{z-index:100000;}
 header{height:50px;width:100%;
     background: gray;
-    line-height: 60px;
+    line-height: 50px;
     }
-header>ul{;
+header>ul{
     text-align: center;
     float:right;
-    height: 50px;width:90px;}
-header>li{width:30px;
-    padding: 5px;}
+    height: 50px;width:90px}
+header>ul>li{width:90px;height:50px;line-height: 50px;font-weight:bold}
 
+header>ul>li>a{color:#fff;}
+
+header>ul>li:hover{
+    background: #fff;transition:.2s;}
+header>ul>li:hover>a{
+    color:black;
+}
 a{
     text-decoration: none;color:#000;}
-section{width:1200px;height:1000px;padding:0;margin:0 auto;}
-#left{float:left;width:600px;padding:0;height:1000px;position:relative;}
-#left>img{width:600px;height:800px;float:left;}
-#right{float:left;width:600px;padding:0;height:1000px;position:relative}
-.small img{float:left;width:300px;}
-#big img{float:left;width:600px;height:500px;}
+section{width:1500px;height:1000px;padding:0;margin:0 auto;}
+#left{float:left;width:750px;padding:0;height:1000px;position:relative;}
+#left>img{width:750px;height:875px;float:left;}
+#right{float:left;width:750px;padding:0;height:1000px;position:relative}
+.small img{float:left;width:375px;}
+#big img{float:left;width:750px;height:500px;}
 li{
     list-style:none;
     line-height: 30px;}
-footer{position:relative;height:200px;width:1200px;
+footer{position:relative;height:200px;width:1500px;
     margin:0 auto;
     background:gray;
     text-align: center;
@@ -65,6 +71,12 @@ footer>p{
 #d{position:absolute;
     top:800px;
     left:10px;  }
+
+#jigm{
+    background: #fff;}
+
+#jigm a{color:black;font-weight:bold;}
+#jigm li{height:50px;line-height: 50px;}
 /*20523최윤*/
 
 
