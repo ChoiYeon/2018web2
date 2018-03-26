@@ -33,7 +33,7 @@ footer>p{
 #a-left ul>li>ul li{border-bottom: black solid 1px;
     }
 #a-left{width:85%;float:left;overflow: hidden;font-size: 15px;}
-#a-right{wodth:15%;float:left;overflow: hidden;font-size: 15px;}
+#a-right{width:15%;float:left;overflow: hidden;font-size: 15px;}
 #a-right ul>li>ul li{border-bottom: black solid 1px;}
 #a-right h3{
     text-align: center;}
@@ -42,7 +42,7 @@ footer>p{
 #b-left ul>li>ul li{border-bottom: black solid 1px;
 }
 #b-left{width:70%;float:left;overflow: hidden;font-size: 15px;}
-#b-right{wodth:30%;float:left;overflow: hidden;font-size: 15px;}
+#b-right{width:30%;float:left;overflow: hidden;font-size: 15px;}
 #b-right ul>li>ul li{border-bottom: black solid 1px;}
 #b-right h3{
     text-align: center;}
@@ -50,13 +50,13 @@ footer>p{
     text-align: center;}
 
 #smalltext1{
-    text-align: center;position:absolute;;top:30px;left:56px;width:200px;}
-#smalltext1>a{color:#fff}
+    text-align: center;position:absolute;;top:30px;left:38px;width:250px;}
+#smalltext1>a{color:#fff;font-size: 18px;}
 #smalltext2{
-    text-align: center;position:absolute;;top:30px;left:320px;}
-#smalltext2>a{color:#fff}
-#bigtext1{text-align: center;position:absolute;;top:320px;left:150px;}
-#bigtext1>a{color:#fff;}
+    text-align: center;position:absolute;;top:30px;left:300px;width:300px;}
+#smalltext2>a{color:#fff;font-size: 18px;}
+#bigtext1{text-align: center;position:absolute;;top:320px;left:120px;width:400px;}
+#bigtext1>a{color:#fff;font-size: 20px;}
 #c{
     position:absolute;
     top:800px;
