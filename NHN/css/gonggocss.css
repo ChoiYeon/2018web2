@@ -1,6 +1,6 @@
 *{margin:0;padding:0;box-sizing: border-box  }
 
-#wrap{width:1500px;height:1600px;}
+#wrap{width:1500px;height:1600px;margin:0 auto;}
 
 li{
     list-style: none
