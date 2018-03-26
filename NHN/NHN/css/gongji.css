@@ -53,4 +53,13 @@ td{
     border-bottom:solid 1px darkgray;
 
 }
-td>p{font-size:12px;}
+td>p{
+    font-size:12px;
+}
+
+#middle{
+    text-align: center;padding:30px;}
+#middle>button{width:30px;height:30px;border:none;
+    background: darkgrey;}
+
+#padding{padding-top:10px;}
