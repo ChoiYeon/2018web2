@@ -46,11 +46,21 @@ header>ul>li>a{
 #jemok{font-size: 30px;font-weight: bold;padding-left:30px;
     padding-bottom:10px;}
 table{border-collapse: collapse;}
-td{
+    td{
     padding:30px;
     text-align: left;width:710px;
     border-top:solid 1px darkgray;
     border-bottom:solid 1px darkgray;
 
 }
-td>p{font-size:12px;}
+td>p{
+    font-size:12px;
+}
+
+#middle{
+    text-align: center;padding:30px;}
+
+#padding{padding-top:10px;}
+
+#middle>button{width:30px;height:30px;border:none;
+    background: darkgrey;}
