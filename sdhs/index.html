@@ -5,32 +5,8 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/css.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-        var a=0;
-        $(document).ready(function () {
-            $("#login>ul>li").eq(1).click(function () {
-                if (a == 0) {
-                $("#popup_register").fadeIn();
-                a=1
-            }
+    <script src="js/js.js"></script>
 
-            })
-            $("#login>ul>li").eq(0).click(function () {
-                if (a==0) {
-                    $("#popup_login").fadeIn();
-                }
-            a=1;
-            })
-            $("#cancel").click(function () {
-                $("#popup_register").fadeOut();
-                a=0;
-            })
-            $("#lg_cancel").click(function () {
-                $("#popup_login").fadeOut();
-                a=0;
-            })
-        })
-    </script>
 </head>
 <body>
 <div id="wrap">
@@ -78,9 +54,9 @@
             <dt><label for="id">아이디</label></dt>
             <dd><input type="text" id="id" name="id" placeholder="id"></dd>
             <dt><label for="password">비밀번호</label></dt>
-            <dd><input type="text" id="password" name="password" placeholder="password"></dd>
+            <dd><input type="password" id="password" name="password" placeholder="password"></dd>
             <dt><label for="check_pw">비밀번호 확인</label></dt>
-            <dd><input type="text" id="check_pw" name="check_pw" placeholder="check password"></dd>
+            <dd><input type="password" id="check_pw" name="check_pw" placeholder="check password"></dd>
             <dt><label for="email">이메일</label></dt>
             <dd><input type="email" id="email" name="email" placeholder="email"></dd>
             <dt><label for="adress">주소</label></dt>
@@ -93,20 +69,51 @@
             <dl>
                 <dt><label for="lg_id">아이디</label></dt>
                 <dd><input type="text" id="lg_id" name="lg_id" placeholder="id"></dd>
-                <dt><label for="lg_password">비밀번호</label></dt>
-                <dd><input type="text" id="lg_password" name="lg_password" placeholder="password"></dd>
+                <dt><label fosr="lg_password">비밀번호</label></dt>
+                <dd><input type="password" id="lg_password" name="lg_password" placeholder="password"></dd>
                 <button type="lg_submit" id="lg_submit">로그인</button>
                 <button type="button" id="lg_cancel">닫기</button>
              </dl>
         </div>
     </header>
-    <section>
+    <contents>
         <div id="slide">
-            <img src="images/slide%201.jpg" alt="slide1">
-            <img src="images/slide%202.jpg" alt="slide2">
-            <img src="images/slide%203.jpg" alt="slide3">
+            <img src="images/slide 1.jpg" alt="slide1"/>
+            <img src="images/slide 2.jpg" alt="slide2"/>
+            <img src="images/slide 3.jpg" alt="slide3"/>
         </div>
-    </section>
+        <aside>
+            <h3>오늘의 급식</h3>
+            <br>
+            <img src="images/gpsic.jpg" alt="mashitgeta">
+        </aside>
+        <article>
+            <div id="top">
+            <ul>
+                <li><h4>공지사항</h4>
+                    <ul>
+                        <li>이번주 수요일 시험입뉘다 .</li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </li>
+            </ul>
+                <ul>
+                    <li><h4>날짜</h4>
+                        <ul>
+                            <li>2018.04.16</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+        </article>
+    </contents>
+    <footer>
+
+    </footer>
 </div>
 </body>
 </html>
