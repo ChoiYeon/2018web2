@@ -1,5 +1,5 @@
 *{margin:0;padding:0;box-sizing: border-box}
-#wrap{width:1000px;margin:0 auto;height:1340px;}
+#wrap{width:1000px;margin:0 auto;height:1570px;}
 h1,h2,h3,h4,h5,h6,a,li,p{color:#444444}
 header{
     width:1000px;
@@ -8,11 +8,12 @@ header{
 }
 #logo{
     width:100%;
-    height:100px;
+    height:80px;
     line-height: 100px;
 
 }
-#logo>#login{float:right;width:300px;margin-right:10px;margin-top:3px;}
+#logo>img{width:220px;height:42px; }
+#logo>#login{float:right;width:300px;margin-right:10px;margin-top:18px;}
 #login li{border-collapse:collapse;width:60px;height:30px;float:right;border:solid 1px #444444 ;
     line-height: 30px;cursor:pointer;
     text-align: center;
@@ -39,11 +40,11 @@ li{
 }
 #drdw>ul>li:hover ul li{
     height:40px;
-    background: #ccc;
+    background: #fff;
     transition:.2s;
 }
 #drdw>ul>li:hover{
-    background: #ccc;
+    background: #fff;
 }
 #drdw>ul>li:hover a{
     color:#fff;
@@ -63,7 +64,7 @@ li{
     top:100px;
     left:50%;
     margin-left:-250px;
-    background: #111111;
+    background:#444;
     opacity: 0.9;
     color:#fff;
     z-index:1000;
@@ -75,9 +76,10 @@ li{
     line-height: 20px;}
 #popup_register dd{width:240px;float:left;}
 #popup_register dt{width:250px;float:left;margin-left:10px;}
+#popup_register{line-height: 50px;}
 #submit{width:80px;height:30px;position:relative;left:35%;margin-top:30px;}
 #cancel{width:80px;height:30px;position:relative;left:35%;margin-top:30px;}
-dl{line-height: 50px;}
+
 #popup_login{
     display:none;
     position: fixed;
@@ -85,10 +87,11 @@ dl{line-height: 50px;}
     width:500px;
     left:50%;
     margin-left: -250px;
-    background: #111111;
+    background: #444;
     opacity: 0.9;
     color:#fff;
     z-index:1000;
+    line-height: 50px;
 }
 #popup_login dd{width:240px;float:left;}
 #popup_login dt{width:250px;float:left;margin-left:10px;}
@@ -105,23 +108,51 @@ dl{line-height: 50px;}
 #slide img:first-child{left:0;z-index:1}
 
 /*640px*/
-aside>img{width:150px;height:150px;}
-aside{width:25%;height:500px;float:left;
+section{width:100%;height:1280px;}
+#gpsic>img{width:150px;height:150px;}
+aside{width:25%;height:480px;float:left;
     text-align: center;}
-article{width:75%;height:500px;float:right;
-    background: #ccc;}
- table{width:700px;margin:0 auto;border-collapse: collapse;}
- table th{
+article{width:1000px;height:480px;
+}
+
+#contants{width:75%;height:480px;float:right;}
+ article table{width:650px;margin:0 auto;border-collapse: collapse;}
+article>table th{
     text-align: center;
     line-height: 25px;
     border-bottom:solid 1px #bbbbbb}
 .contant{
     text-align: center;}
-table td{border-bottom:solid 1px #bbbbbb;
+article table td{border-bottom:solid 1px #555555;
     line-height: 25px;}
-#top{padding-top:40px;}
-#down{padding-top:40px;}
+#top{width:700px;height:190px;margin:0 auto;position:relative;top:25px;
+    background: #fff;padding:10px;}
+#down{width:700px;height:190px;margin:0 auto;position:relative;top:75px;
+    background: #fff;padding:10px;}
 
-table a:hover{
+article table a:hover{
     font-weight:bold;
 }
+
+footer{
+    text-align: center;
+    height:150px;
+    line-height: 150px;
+    background: #555;
+    width:1000px;
+    position:relative;
+}
+footer>p{color:#fff;}
+#cal>table{font-size:15px;}
+#cal>table>th{width:34px;
+    }
+#cal table {width:250px;}
+#gpsic{
+    background: #fff;width:100%;height:260px;}
+#cal{padding-top:20px;
+    background: #fff;height:220px;}
+#today{
+    background: #fff;}
+.gray{color:gainsboro;}
+#bottom{width:1000px;height:300px;
+    background: red;position:relative}

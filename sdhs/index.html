@@ -11,7 +11,7 @@
 <body>
 <div id="wrap">
     <header>
-        <div id="logo"><img src="images/selectImageView.png" height="42" width="220"/>
+        <div id="logo"><img src="images/selectImageView.png" alt="logo"/>
             <div id="login">
                 <ul>
                     <li>로그인</li>
@@ -24,15 +24,15 @@
         <ul>
             <li><a href="#">학생활동</a>
                 <ul>
-                    <li><a href="">동아리</a></li>
-                    <li><a href="">방과후</a></li>
-                    <li><a href="">창체활동</a></li>
+                    <li><a href="#">동아리</a></li>
+                    <li><a href="#">방과후</a></li>
+                    <li><a href="#">창체활동</a></li>
                 </ul>
             <li><a href="#">학교소개</a>
                 <ul>
-                    <li><a href="">교사</a></li>
-                    <li><a href="">학교구조</a></li>
-                    <li><a href="">우리학교</a></li>
+                    <li><a href="#">교사</a></li>
+                    <li><a href="#">학교구조</a></li>
+                    <li><a href="#">우리학교</a></li>
                 </ul>
             <li><a href="#">학교게시판</a>
                 <ul>
@@ -50,51 +50,128 @@
         </ul>
 </div>
 <div id="popup_register">
-        <dl>
+        <dl class="id">
             <dt><label for="id">아이디</label></dt>
             <dd><input type="text" id="id" name="id" placeholder="id"></dd>
+        </dl>
+    <dl class="pw">
             <dt><label for="password">비밀번호</label></dt>
             <dd><input type="password" id="password" name="password" placeholder="password"></dd>
+    </dl>
+        <dl class=pw_c>
             <dt><label for="check_pw">비밀번호 확인</label></dt>
             <dd><input type="password" id="check_pw" name="check_pw" placeholder="check password"></dd>
+    </dl>
+        <dl class="email">
             <dt><label for="email">이메일</label></dt>
             <dd><input type="email" id="email" name="email" placeholder="email"></dd>
+
+    </dl>
+        <dl class="adress">
             <dt><label for="adress">주소</label></dt>
             <dd><input type="text" id="adress" name="adress" placeholder="adress"></dd>
-            <button type="submit" id="submit">회원가입</button>
-            <button type="button" id="cancel">닫기</button>
-        </dl>
+    </dl>
+            <button type="submit" id="submit" name="sign_ok">회원가입</button>
+            <button type="button" id="cancel" name="cancel">닫기</button>
 </div>
         <div id="popup_login">
-            <dl>
+            <dl class="lg_id">
                 <dt><label for="lg_id">아이디</label></dt>
                 <dd><input type="text" id="lg_id" name="lg_id" placeholder="id"></dd>
-                <dt><label fosr="lg_password">비밀번호</label></dt>
+                 </dl>
+                <dl class="lg_pw">
+                <dt><label for="lg_password">비밀번호</label></dt>
                 <dd><input type="password" id="lg_password" name="lg_password" placeholder="password"></dd>
-                <button type="lg_submit" id="lg_submit">로그인</button>
+                </dl>
+
+                <button type="submit" id="lg_submit">로그인</button>
                 <button type="button" id="lg_cancel">닫기</button>
-             </dl>
         </div>
     </header>
     <section>
         <div id="slide">
-            <img src="images/slide%201.jpg" alt="slide1"/>
-            <img src="images/slide%202.jpg" alt="slide2"/>
-            <img src="images/slide%203.jpg" alt="slide3"/>
+            <img src="images/slide1.jpg" alt="slide1"/>
+            <img src="images/slide2.jpg" alt="slide2"/>
+            <img src="images/slide3.jpg" alt="slide3"/>
         </div>
+        <article>
         <aside>
+            <div id="gpsic">
             <h3>오늘의 급식</h3>
             <br>
             <img src="images/gpsic.jpg" alt="mashitgeta">
             <br>
             <ul>
-                <li>작곡밥,배추김치,</li>
-                <li>파전,불고기,</li>
-                <li>김치국,</li>
-                <li>야구르트</li>
+                <li>작곡밥,배추김치,파전,</li>
+                <li>불고기,김치국,야구르트</li>
             </ul>
+            </div>
+            <div id="cal">
+                <h5>일정</h5>
+                    <table>
+                        <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        </tr>
+                        <tr>
+                            <td><a href="">1</a></td>
+                            <td><a href="">2</a></td>
+                            <td><a href="">3</a></td>
+                            <td><a href="">4</a></td>
+                            <td><a href="">5</a></td>
+                            <td><a href="">6</a></td>
+                            <td><a href="">7</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">8</a></td>
+                            <td><a href="">9</a></td>
+                            <td><a href="">10</a></td>
+                            <td><a href="">11</a></td>
+                            <td><a href="">12</a></td>
+                            <td><a href="">13</a></td>
+                            <td><a href="">14</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">15</a></td>
+                            <td><a href="">16</a></td>
+                            <td><a href="">17</a></td>
+                            <td><a href="">18</a></td>
+                            <td><a href="">19</a></td>
+                            <td><a href="">20</a></td>
+                            <td><a href="">21</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">22</a></td>
+                            <td id="today"><a href="#">23</a></td>
+                            <td><a href="">24</a></td>
+                            <td><a href="">25</a></td>
+                            <td><a href="">26</a></td>
+                            <td><a href="">27</a></td>
+                            <td><a href="">28</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="">29</a></td>
+                            <td><a href="">30</a></td>
+                            <td class="gray">1</td>
+                            <td class="gray">2</td>
+                            <td class="gray">3</td>
+                            <td class="gray">4</td>
+                            <td class="gray">5</td>
+                        </tr>
+
+
+                    </table>
+                <p>일정이 없습니다.</p>
+            </div>
+
         </aside>
-        <article>
+
+            <div id="contants">
             <div id="top">
             <table>
                 <tr>
@@ -153,10 +230,17 @@
                 </table>
 
             </div>
+            </div>
         </article>
+        <div id="bottom">
+            <!--300px!-->
+            <div id="pok">
+
+            </div>
+        </div>
     </section>
     <footer>
-
+        <p>copyright(c) 20523최윤</p>
     </footer>
 </div>
 </body>
