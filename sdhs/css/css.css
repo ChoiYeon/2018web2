@@ -126,8 +126,10 @@ article>table th{
     text-align: center;}
 article table td{border-bottom:solid 1px #555555;
     line-height: 25px;}
-#top{width:700px;height:240px;position:relative;;border:solid 1px gray;margin:5px 10px 0 5px; }
-#down{width:700px;height:240px;position:relative;padding:10px;margin:5px 10px 0 5px;border:solid 1px gray;}
+#top{width:700px;height:240px;position:relative;;border:solid 1px gray;margin:5px 10px 0 5px;
+    background: #fff; }
+#down{width:700px;height:240px;position:relative;padding:10px;margin:5px 10px 0 5px;border:solid 1px gray;
+    background: #fff;}
 
 article table a:hover{
     font-weight:bold;
