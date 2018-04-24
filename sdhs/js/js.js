@@ -7,6 +7,8 @@ $(document).ready(function () {
     var max1 = img1.length-1;
     var a=0;
     var cnt1=0;
+
+
      $("#login>ul>li").eq(1).click(function () {
          if (a == 0) {
              $("#popup_register").fadeIn();
@@ -25,8 +27,14 @@ $(document).ready(function () {
      })
      $("#lg_cancel").click(function () {
          $("#popup_login").fadeOut();
-         a=0;
+         a = 0;
+         //로그인팝업
      })
+    $("#cal tr td").click(function () {
+        $("#cal tr td").removeClass("click")
+        $(this).addClass("click")
+    })
+
 
     function slide_show() {
         $(img[cnt]).animate({"left":"100%"}, function () {
@@ -35,6 +43,7 @@ $(document).ready(function () {
         cnt++;
         if (cnt > max) cnt = 0;
         $(img[cnt]).animate({"left": "0"});
+        //슬라이드
     }
     setInterval(slide_show,2000);
     function banner_show() {
@@ -44,6 +53,7 @@ $(document).ready(function () {
         cnt1++;
         if (cnt1 > max1) cnt1 = 0;
         $(img1[cnt1]).animate({"left": "0"});
+        //배너슬라이드
     }
     setInterval(banner_show,4000);
 
