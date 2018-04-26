@@ -137,6 +137,7 @@ footer{
     background: #555;
     width:1000px;
     position:relative;
+
 }
 footer>p{color:#fff;}
 #cal>table{font-size:15px;}
@@ -200,3 +201,7 @@ footer>p{color:#fff;}
     transition:.2s;
     font-weight:bold;
 }
+footer>#flogo{position:absolute;left:0;top:-30px;width:240px;z-index:3}
+
+
+
