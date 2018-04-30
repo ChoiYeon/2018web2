@@ -62,7 +62,6 @@ li{
     left:50%;
     margin-left:-250px;
     background:#444;
-    opacity: 0.9;
     color:#fff;
     z-index:100000;
 }
@@ -85,7 +84,6 @@ li{
     left:50%;
     margin-left: -250px;
     background: #444;
-    opacity: 0.9;
     color:#fff;
     z-index:100000;
     line-height: 50px;
@@ -129,17 +127,15 @@ article table td{border-bottom:solid 1px #555555;
 article table a:hover{
     font-weight:bold;
 }
-
+#foonter{position:relative;top:25px;}
 footer{
     text-align: center;
     height:150px;
-    line-height: 150px;
     background: #555;
     width:1000px;
     position:relative;
-
 }
-footer>p{color:#fff;}
+footer span{color:#fff;}
 #cal>table{font-size:15px;}
 #cal th{width:40px;
     }
